@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvmain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showmsgbutton" />
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/showmsgbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showsmsreceive" />
+
+</LinearLayout>

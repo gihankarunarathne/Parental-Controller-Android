@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/home/gihan/indigo/Parental_Controller/parental-controller-android/childroid/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/indigo/Parental_Controller/parental-controller-android/childroid/lib/additionnal.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/indigo/Parental_Controller/parental-controller-android/childroid/lib/mail.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/android-sdk-linux/platforms/android-15/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/gihan/android-sdk-linux/docs/reference"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/gihan/android-sdk-linux/add-ons/addon-google_apis-google-15/libs/maps.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

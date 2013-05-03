@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/home/gihan/proj/indigo-jee/Parentdroid-4.0.3/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/proj/indigo-jee/Parentdroid-4.0.3/lib/additionnal.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/proj/indigo-jee/Parentdroid-4.0.3/lib/mail.jar"/>
+	<classpathentry kind="lib" path="/home/gihan/Downloads/Android/junit-4.10.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

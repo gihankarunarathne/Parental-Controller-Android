@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Application Settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="forwardmsgpref"
+            android:summary="Forward Messages to Parent"
+            android:title="Forward Messages" />
+
+        <ListPreference
+            android:defaultValue="digiGreen"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:key="listPref"
+            android:summary="This preference allows to select an item in a array"
+            android:title="List Preference" />
+
+        <EditTextPreference
+            android:inputType="textEmailAddress"
+            android:key="emailPref"
+            android:summary="Email receive address"
+            android:title="Email Address" />
+        <EditTextPreference
+            android:ems="10"
+            android:inputType="phone"
+            android:key="telnumPref"
+            android:summary="Message forward to this Number"
+            android:title="Telephone number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Account Settings" >
+        <PreferenceScreen
+            android:key="userAthuthPrefScreen"
+            android:summary="Change User Name and Password"
+            android:title="Change Account Settings" >
+            <EditTextPreference
+                android:key="userNamePref"
+                android:summary="Enter a new User Name"
+                android:title="User Name" />
+            <EditTextPreference
+                android:inputType="textPassword"
+                android:key="passwordPref"
+                android:summary="Enter a new Password"
+                android:title="New Password" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <Preference
+        android:key="customPref"
+        android:summary="Go to Previous Menu"
+        android:title="Go Back" />
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Developed by Gihan Chanuka...</string>
+    <string name="app_name">Parentdroid-4.0.3</string>
+    <string name="smsreceivetopic">SMS receive from Parentdroid</string>
+    <string name="smsreceivetxt">Recieved SMS</string>
+    <string name="smssendtxt">Sent SMS</string>
+    <string name="mainButton">Default Button</string>
+    <string name="showmsgbutton">Get Child Info</string>
+    <string name="smssendbody">Sent msg</string>
+    <string name="smssendtopic">Sent sms</string>
+    <string name="sendemailbutton">Send Email</string>
+    <string name="mapviewtopic">Map View</string>
+    <string name="showchildlocation">Show Childroid Location</string>
+    <string name="username">User Name</string>
+    <string name="usernametext">usernametext</string>
+    <string name="password">Password</string>
+    <string name="passwordtext">passwordtext</string>
+    <string name="usertype">User Type</string>
+    <string name="loginbutton">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="getfromchild">Click to Get Info from Child</string>
+    <string name="labelchildnum">Child Number</string>
+    <string name="record">Record Call</string>
+    <string name="getphoto">Take Snapshot</string>
+    <string name="getrunningapps">Get Running Apps</string>
+    <string name="showsmsreceive">Show Receive SMS</string>
+</resources>

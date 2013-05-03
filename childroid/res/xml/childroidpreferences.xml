@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Parent Settings">
+        <EditTextPreference android:summary="maintain user name" android:title="User Name" android:key="username"/>
+        <EditTextPreference android:summary="maintain password" android:title="Password" android:key="password" android:inputType="textPassword"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
